@@ -1,3 +1,6 @@
+@import "../styles/fontfamily.css";
+@import "../styles/site.css";
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -10,7 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: "NovaMono", georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

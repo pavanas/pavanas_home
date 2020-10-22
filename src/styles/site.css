@@ -1,0 +1,11 @@
+body {
+    /* background: #ff4b1f;
+    background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);
+    background: linear-gradient(to right, #ff9068, #ff4b1f); */
+    
+    background: rgb(246,246,246);
+    background: linear-gradient(90deg, rgba(246,246,246,1) 0%, rgba(255,250,245,1) 35%, rgba(228,228,228,1) 100%); 
+
+    font-size: 1.3rem;
+    color: white;
+}

@@ -8,8 +8,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+// import Header from "./header"
 
-import Header from "./header"
+import Logo from "./logo"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -25,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <div
         style={{
           margin: `0 auto`,
@@ -39,11 +40,15 @@ const Layout = ({ children }) => {
         }}>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://www.gatsbyjs.com"><Logo name="gatsby" /></a>
+          {` `}
+          - Hosted on
+          {` `} 
+          <a href="https://www.netlify.com"><Logo name="netlify" /></a>
         </footer>
       </div>
     </>
-  )
+  );
 }
 
 Layout.propTypes = {

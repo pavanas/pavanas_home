@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "OverpassMono";
+  src: url("../fonts/OverpassMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: "AmaticSC";
+  src: url("../fonts/AmaticSC-Regular.ttf");
+}
+
+@font-face {
+    font-family: "NovaMono";
+    src: url("../fonts/NovaMono-Regular.ttf");
+  }
